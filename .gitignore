@@ -1,0 +1,33 @@
+# Скомпилированные бинарные файлы
+*.exe
+*.dll
+*.so
+*.dylib
+*.exe~
+
+# Директории и файлы временных данных
+*.log
+*.tmp
+*.out
+*.test
+
+# Пакетный менеджер Go
+/vendor/
+/bin/
+/pkg/
+
+# Зависимости
+#/go.sum
+#/go.mod
+
+# Конфигурационные файлы
+.env
+config.yaml
+config.json
+
+# IDE и редакторы
+.idea/
+/.vscode/
+/*.swp
+*.sublime-project
+*.sublime-workspace
